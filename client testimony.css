@@ -1,0 +1,162 @@
+body{
+    background-color: aliceblue;
+}
+    
+#generalDiv{
+    text-align: center;
+    
+}
+      
+
+#firstdiv{
+    display : block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 25px;
+   font-family:Arial, Helvetica, sans-serif;
+    }
+
+#underline{
+    width: 70px;
+    height: 4px;
+    background-color: rgb(34, 173, 34);
+    margin:auto;
+    margin-top: 10px;
+    }
+
+    #secondDiv{
+        display: block;
+       text-align: center;
+        border-style: outset ;
+        border: none; 
+       /* height: 80vh; */
+      width: 70vw;
+       padding: 20px;
+       margin: auto;
+     background-color: white;
+     position: relative;
+     top: 20px;
+       
+    }
+
+    #image{
+        background-color:rgb(34, 173, 34);;
+        height: 150px;
+        width: 130px;
+        border-radius: 50%;
+       margin: auto;
+    }
+
+    #fbtn{
+        font-size: 18px;
+        border: none;
+         color: rgb(139, 226, 139);
+       background-color: white;
+
+
+    }
+
+    #lbtn{
+        font-size: 18px;
+        border: none;
+         color: rgb(139, 226, 139);
+       background-color: white;
+
+    }
+
+
+    #mbtn{
+        font-size: 18px;
+        border-radius: 8px;
+         color: rgb(139, 226, 139);
+       background-color: rgb(167, 234, 167);
+       width:60vw;
+       border: none;
+    }
+
+    #fbtn:hover{
+        color: rgb(34, 173, 34);
+        cursor: pointer;
+        }
+
+        #lbtn:hover{
+            color: rgb(34, 173, 34);
+        cursor: pointer;
+        }
+
+        #mbtn:hover{
+            color: rgb(34, 173, 34);
+            cursor: pointer;
+        }
+
+        #quotes{
+            position: relative;
+            bottom: 130px;
+            right: 60px;
+            color:white ;
+            background-color:rgb(34, 173, 34);
+            width:40px;
+            height: 40px; 
+            border-radius: 20px;
+            font-size:20px ;
+            border: none;
+          
+        }
+
+        #image > img{
+            height: 140px;
+            width: 120px;
+            border-radius: 50%;
+            margin-top: 5px;
+            margin-right: 30px;
+           }
+     #myP{
+        font-size: 16px;
+       
+     }
+
+     h6{
+        color: rgb(34, 173, 34);
+    
+     }
+
+     h3{
+        font-family: Arial, Helvetica, sans-serif;
+     }
+    
+@media screen and (min-width:760px) {
+
+ #image{
+        background-color: rgb(34, 173, 34);
+        height: 150px;
+        width: 130px;
+        border-radius: 50%;
+       margin: auto;
+    }
+    
+    #secondDiv{
+    position: relative;
+       text-align: center;
+        border-style: outset ; 
+        border: none; 
+       max-height: 70vh;
+     max-width: 40vw;
+       padding: 20px;
+       margin: auto;
+     margin-top: 20px;
+       
+    }
+p{
+    line-height: 1;
+}
+#mbtn{
+    font-size: 18px;
+    border-radius: 8px;
+     color: rgb(139, 226, 139);
+   background-color: rgb(167, 234, 167);
+   max-width:40vw;
+   border: none;
+}
+
+}
